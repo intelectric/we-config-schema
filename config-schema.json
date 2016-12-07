@@ -1,0 +1,142 @@
+{ 
+	"title": "Configuration object",
+	"type": "object",
+	"id": "configuration",
+	"properties": {
+		"enduser_app" : {
+		   "type"  : "object",
+		   "title" : "End user application configuration",
+		   "properties" : {
+				"app_id" : {
+					"title" : "Widget id of application",
+					"type"   : "string",
+					"enum" : [
+					   "#wien-energie-gui"
+					],
+					"default" : "#wien-energie-gui"
+				},
+				"widget_text" : {
+					"title" : "Widget text of application shown in apps",
+					"type"   : "string",
+					"default" : "Wien Energie"
+				},
+				"app_url" : {
+					"title" : "URL of application",
+					"type"   : "string",
+					"enum" : [
+					   "/apps/data/wien-energie-gui/"
+					],				
+					"default" : "/apps/data/wien-energie-gui/"
+				}			
+		   }
+		},
+		"installer_app" : {
+		   "type"  : "object",
+		   "title" : "Installer application configuration",
+		   "properties" : {
+				"app_id" : {
+					"title" : "Widget id of application",
+					"type"   : "string",
+					"enum" : [
+					   "#wien-energie-support"
+					],
+					"default" : "#wien-energie-support"
+				},
+				"widget_text" : {
+					"title" : "Widget text of application shown in apps",
+					"type"   : "string",
+					"default" : "Wien Energie Support"
+				},
+				"app_url" : {
+					"title" : "URL of application",
+					"type"   : "string",
+					"enum" : [
+					   "/apps/data/wien-energie-support/app.html"
+					],				
+					"default" : "/apps/data/wien-energie-support/app.html"
+				}			
+		   }
+		},	
+		"user_config" : {
+			"type" : "object",
+			"title": "Parameters specific for installation",
+			"properties" : {
+				"resident" : {
+					"title" : "Resident scripts settings",
+					"type" : "object",
+					"properties" : {
+						"keba" : {
+							"title" : "Resident script of Keba charger",
+							"type" : "object",
+							"properties" : {
+								"interval" : {
+									"title" : "Sleep interval",
+									"type" : "integer",
+									"default": 5,
+									"minimum": 0,
+									"maximum": 20
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"studerp1" : {
+							"title" : "Resident script of Studer priority 1",
+							"type" : "object",
+							"properties" : {
+								"interval" : {
+									"title" : "Sleep interval",
+									"type" : "integer",
+									"default": 5,
+									"minimum": 0,
+									"maximum": 20
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},	
+						"studerp2" : {
+							"title" : "Resident script of Studer priority 2",
+							"type" : "object",
+							"properties" : {
+								"interval" : {
+									"title" : "Sleep interval",
+									"type" : "integer",
+									"default": 27,
+									"minimum": 5,
+									"maximum": 40
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						}					
+					}
+				},
+				"studer" : {
+					"title" : "Configuration for studer device",
+					"type" : "object",
+					"properties" : {
+						"RS232" : {
+							"title": "RS232 terminal for current installation",
+							"type" : "string",
+							"enum" : [
+								"/dev/ttyUSB0",
+								"/dev/RS232"
+							],
+							"default": "/dev/ttyUSB0"
+						}
+					}
+				}
+			}
+		}
+	}
+}
