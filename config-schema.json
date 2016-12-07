@@ -51,9 +51,9 @@
 					"title" : "URL of application",
 					"type"   : "string",
 					"enum" : [
-					   "/apps/data/wien-energie-support/app.html"
+					   "/apps/data/wien-energie-support/app.lp"
 					],				
-					"default" : "/apps/data/wien-energie-support/app.html"
+					"default" : "/apps/data/wien-energie-support/app.lp"
 				}			
 		   }
 		},	
