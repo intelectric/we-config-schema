@@ -81,6 +81,45 @@
 							"default": "/dev/ttyUSB0"
 						}
 					}
+				},
+				"asyncdata" : {
+					"title" : "Configuration for getting data asynchronously",
+					"type" : "object",
+					"properties" : {
+						"overview" : {
+							"title" : "Overview widget updated asynchronously",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : false
+								}
+							}
+						},
+						"energymeter" : {
+							"title" : "Energymeter widget updated asynchronously",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"energylog" : {
+							"title" : "Energylog widget updated asynchronously",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						}
+					}
 				}
 			}
 		},
