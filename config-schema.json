@@ -82,12 +82,33 @@
 						}
 					}
 				},
+				"vps" : {
+					"title" : "Configuration for VPS",
+					"type" : "object",
+					"properties" : {
+						"ignore" : {
+							"title" : "Ignore sending data to VPS",
+							"type" : "boolean",
+							"default" : false
+						},
+						"timeout" : {
+							"title" : "Timeout for VPS not reachable",
+							"type" : "number",
+							"default" : 0.5
+						},
+						"url" : {
+							"title" : "Url to send request to",
+							"type" : "string",
+							"default" : "http://81.2.243.157:6250/"
+						}
+					}
+				},				
 				"asyncdata" : {
 					"title" : "Configuration for getting data asynchronously",
 					"type" : "object",
 					"properties" : {
 						"overview" : {
-							"title" : "Overview widget updated asynchronously",
+							"title" : "Overview widget",
 							"type" : "object",
 							"properties" : {
 								"ignore" : {
@@ -98,7 +119,7 @@
 							}
 						},
 						"energymeter" : {
-							"title" : "Energymeter widget updated asynchronously",
+							"title" : "Energymeter widget",
 							"type" : "object",
 							"properties" : {
 								"ignore" : {
@@ -109,7 +130,117 @@
 							}
 						},
 						"energylog" : {
-							"title" : "Energylog widget updated asynchronously",
+							"title" : "Energylog widget",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"battery" : {
+							"title" : "Battery widget",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"charger" : {
+							"title" : "Charger widget",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"devices" : {
+							"title" : "Devices widget",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"grid" : {
+							"title" : "Grid widget",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"hrwater" : {
+							"title" : "Hrwater widget",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"pv" : {
+							"title" : "PV widget",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"mini_autonomy" : {
+							"title" : "Mini autonomy widget",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"mini_battery" : {
+							"title" : "Mini battery widget",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"mini_multi" : {
+							"title" : "Mini multi widget",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"weather" : {
+							"title" : "Weather widget",
 							"type" : "object",
 							"properties" : {
 								"ignore" : {
