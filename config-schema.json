@@ -92,7 +92,7 @@
 							"properties" : {
 								"ignore" : {
 									"type" : "integer",
-									"default": 1,
+									"default": 0,
 									"minimum": 0,
 									"maximum": 1
 								}
