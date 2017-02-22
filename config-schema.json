@@ -82,6 +82,24 @@
 						}
 					}
 				},
+				"counters" : {
+					"title" : "Configuration of virtual energy counters",
+					"type" : "object",
+					"properties" : {
+						"hrwater": {
+							"title" : "Varista",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore",
+									"type" : "boolean",
+									"default" : false
+								}
+							}
+						}
+
+					}
+				},				
 				"vps" : {
 					"title" : "Configuration for VPS",
 					"type" : "object",
