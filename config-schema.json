@@ -91,9 +91,10 @@
 							"type" : "object",
 							"properties" : {
 								"ignore" : {
-									"title" : "Ignore",
-									"type" : "boolean",
-									"default" : false
+									"type" : "integer",
+									"default": 1,
+									"minimum": 0,
+									"maximum": 1
 								}
 							}
 						}
