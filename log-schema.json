@@ -1,0 +1,37 @@
+{
+  "type": "array",
+  "format": "table",
+  "items": {
+    "type": "object",
+    "id": "arr_item",
+    "properties": {
+      "logttxt": {
+        "type": "string"
+      },
+      "logtime": {
+        "type": "string"
+      },
+      "errcode": {
+        "type": "string"
+      },
+      "userlevel": {
+        "type": "string"
+      },
+      "errshort": {
+        "type": "string"
+      },
+      "module": {
+        "type": "string"
+      },
+      "tl_id": {
+        "type": "number"
+      },
+      "category": {
+        "type": "string"
+      },
+      "inputparam": {
+        "type": "string"
+      }
+    }
+  }
+}
