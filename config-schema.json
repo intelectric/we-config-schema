@@ -161,6 +161,13 @@
 							"type" : "boolean",
 							"default" : true
 						},
+						"polltime" : {
+							"title" : "GUI polltime",
+							"type" : "number",
+							"default" : 1.5,
+							"minimum": 0.5,
+							"maximum": 30
+						},
 						"overview" : {
 							"title" : "Overview widget",
 							"type" : "object",
