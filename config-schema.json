@@ -95,6 +95,15 @@
 							"title": "Control digital output",
 							"type" : "boolean",
 							"default": true
+						},
+						"positionDO" : {
+							"title": "Digital output address",
+							"type" : "string",
+							"enum" : [
+								"io-01",
+								"io-16"
+							],
+							"default": "io-01"
 						}
 					}
 				},
