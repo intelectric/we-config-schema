@@ -151,6 +151,16 @@
 					"title" : "Configuration for getting data asynchronously",
 					"type" : "object",
 					"properties" : {
+						"asyncmethod" : {
+							"title" : "GUI async",
+							"type" : "boolean",
+							"default" : true
+						},
+						"aggreg" : {
+							"title" : "GUI async aggregation",
+							"type" : "boolean",
+							"default" : true
+						},
 						"overview" : {
 							"title" : "Overview widget",
 							"type" : "object",
