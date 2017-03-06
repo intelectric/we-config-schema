@@ -87,6 +87,17 @@
 						}
 					}
 				},
+				"varista" : {
+					"title" : "Varista config",
+					"type" : "object",
+					"properties" : {
+						"digitalout" : {
+							"title": "Control digital output",
+							"type" : "boolean",
+							"default": true
+						}
+					}
+				},
 				"counters" : {
 					"title" : "Configuration of virtual energy counters",
 					"type" : "object",
