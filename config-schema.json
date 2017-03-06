@@ -79,6 +79,11 @@
 								"/dev/RS232"
 							],
 							"default": "/dev/ttyUSB0"
+						},
+						"groupwrite" : {
+							"title": "Writing values to studer",
+							"type" : "boolean",
+							"default" : true
 						}
 					}
 				},
