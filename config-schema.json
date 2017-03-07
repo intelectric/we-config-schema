@@ -192,6 +192,11 @@
 									"title" : "Ignore async update",
 									"type" : "boolean",
 									"default" : true
+								},
+								"partial" : {
+									"title" : "Do update partialy",
+									"type" : "boolean",
+									"default" : true
 								}
 							}
 						},
@@ -201,6 +206,11 @@
 							"properties" : {
 								"ignore" : {
 									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								},
+								"partial" : {
+									"title" : "Do update partialy",
 									"type" : "boolean",
 									"default" : true
 								}
