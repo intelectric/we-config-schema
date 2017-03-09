@@ -8,13 +8,19 @@
 			"title": "Parameters specific for installation",
 			"properties" : {
 				"language" : {
-					"title" : "Resident scripts settings",
-					"type" : "string",
-					"enum" : [
-								"DE",
-								"EN"
-							],
-					"default": "DE"
+					"title" : "Language settings",
+					"type" : "object",
+					"properties" : {
+						"choice" : {
+							"title" : "Choice",
+							"type" : "string",
+							"enum" : [
+										"DE",
+										"EN"
+									],
+							"default": "DE"
+						}
+					}
 				},
 				"resident" : {
 					"title" : "Resident scripts settings",
