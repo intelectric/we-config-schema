@@ -167,6 +167,13 @@
 									"type" : "boolean",
 									"default" : false
 								},
+								"interval" : {
+									"title" : "Sleep interval",
+									"type" : "integer",
+									"default": 60,
+									"minimum": 20,
+									"maximum": 90
+								},		
 								"hostname" : {
 									"title" : "Hostname to read data from",
 									"type" : "string",
