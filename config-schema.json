@@ -79,6 +79,19 @@
 									"default" : true
 								}
 							}
+						},	
+						"rrd" : {
+							"title" : "RRD log",
+							"type" : "object",
+							"properties" : {
+								"interval" : {
+									"title" : "Sleep interval",
+									"type" : "integer",
+									"default": 60,
+									"minimum": 20,
+									"maximum": 90
+								}
+							}
 						}					
 					}
 				},
@@ -140,7 +153,41 @@
 						}
 
 					}
-				},				
+				},	
+				"simulation" : {
+					"title" : "Configuration for Simulation",
+					"type" : "object",
+					"properties" : {
+						"consume" : {
+							"title" : "Consumer part",
+							"type" : "object",
+							"properties" : {
+								"enabled" : {
+									"title" : "Enable",
+									"type" : "boolean",
+									"default" : false
+								},
+								"hostname" : {
+									"title" : "Hostname to read data from",
+									"type" : "string",
+									"default" : "http://hmml.ddns.net:1024"
+								}
+							}
+						},
+						"provide" : {
+							"title" : "Provider part",
+							"type" : "object",
+							"properties" : {
+								"enabled" : {
+									"title" : "Enable",
+									"type" : "boolean",
+									"default" : false
+								}
+							}
+						}
+					}
+					
+				},			
 				"vps" : {
 					"title" : "Configuration for VPS",
 					"type" : "object",
