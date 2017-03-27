@@ -22,6 +22,11 @@
 						}
 					}
 				},
+				"passprotect" : {
+					"title" : "Password protection",
+					"type" : "boolean",
+					"default" : true
+				},
 				"resident" : {
 					"title" : "Resident scripts settings",
 					"type" : "object",
