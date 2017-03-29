@@ -84,6 +84,24 @@
 									"default" : true
 								}
 							}
+						},
+						"studerp3" : {
+							"title" : "Resident script of Studer priority 3",
+							"type" : "object",
+							"properties" : {
+								"interval" : {
+									"title" : "Sleep interval",
+									"type" : "integer",
+									"default": 120,
+									"minimum": 5,
+									"maximum": 300
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
 						},	
 						"rrd" : {
 							"title" : "RRD log",
