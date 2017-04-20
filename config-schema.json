@@ -103,6 +103,32 @@
 								}
 							}
 						},	
+						"studerch" : {
+							"title" : "Studer lock check",
+							"type" : "object",
+							"properties" : {
+								"interval" : {
+									"title" : "Sleep interval",
+									"type" : "integer",
+									"default": 30,
+									"minimum": 5,
+									"maximum": 90
+								}
+							}
+						},
+						"studerul" : {
+							"title" : "Studer unlock",
+							"type" : "object",
+							"properties" : {
+								"interval" : {
+									"title" : "Sleep interval",
+									"type" : "integer",
+									"default": 10,
+									"minimum": 1,
+									"maximum": 60
+								}
+							}
+						},
 						"rrd" : {
 							"title" : "RRD log",
 							"type" : "object",
