@@ -27,6 +27,20 @@
 					"type" : "boolean",
 					"default" : true
 				},
+				"reactor" : {
+					"title" : "Reactor setting",
+					"properties" : {
+						"table" : {
+							"title" : "table",
+							"type" : "string",
+							"enum" : [
+										"reactorv3",
+										"reactorwe"
+									],
+							"default": "reactorwe"
+						}
+					}
+				},
 				"resident" : {
 					"title" : "Resident scripts settings",
 					"type" : "object",
