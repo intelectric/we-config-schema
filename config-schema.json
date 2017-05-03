@@ -180,6 +180,19 @@
 								}
 							}
 						},	
+						"rrdc" : {
+							"title" : "RRD check",
+							"type" : "object",
+							"properties" : {
+								"interval" : {
+									"title" : "Sleep interval",
+									"type" : "integer",
+									"default": 180,
+									"minimum": 120,
+									"maximum": 300
+								}
+							}
+						},	
 						"counter" : {
 							"title" : "Virtual counters",
 							"type" : "object",
