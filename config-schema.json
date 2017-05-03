@@ -41,6 +41,30 @@
 						}
 					}
 				},
+				"modbus" : {
+					"title" : "Modbus setting",
+					"properties" : {
+						"port" : {
+							"title" : "port",
+							"type" : "string",
+							"enum" : [
+										"/dev/RS485-1",
+										"/dev/RS485-2",
+										"/dev/RS485"
+									],
+							"default": "/dev/RS485-1"
+						},
+						"parity" : {
+							"title" : "parity",
+							"type" : "string",
+							"enum" : [
+										"0",
+										"2"
+									],
+							"default": "0"
+						}
+					}
+				},
 				"resident" : {
 					"title" : "Resident scripts settings",
 					"type" : "object",
