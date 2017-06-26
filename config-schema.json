@@ -341,6 +341,31 @@
 						}
 					}
 					
+				},	
+				"mqtt" : {
+					"title" : "Configuration for MQTT API",
+					"type" : "object",
+					"properties" : {
+						"enable" : {
+							"title" : "Enable sending/receiving MQTT data",
+							"type" : "boolean",
+							"default" : false
+						},
+						"url" : {
+							"title" : "Url of MQTT broker",
+							"type" : "string",
+							"default" : "hausmaster-poc.wienenergie.at"
+						},
+						"port" : {
+							"title" : "Port of MQTT broker",
+							"type" : "number",
+							"default" : 1883
+						},
+						"token" : {
+							"title" : "Security token for connecting to MQTT broker",
+							"type" : "string"
+						},
+					}
 				},			
 				"vps" : {
 					"title" : "Configuration for VPS",
