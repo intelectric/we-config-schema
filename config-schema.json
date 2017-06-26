@@ -364,7 +364,7 @@
 						"token" : {
 							"title" : "Security token for connecting to MQTT broker",
 							"type" : "string"
-						},
+						}
 					}
 				},			
 				"vps" : {
