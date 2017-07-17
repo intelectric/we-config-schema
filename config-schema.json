@@ -351,6 +351,11 @@
 							"type" : "boolean",
 							"default" : false
 						},
+						"logging" : {
+							"title" : "Enable MQTT logging",
+							"type" : "boolean",
+							"default" : false
+						},
 						"url" : {
 							"title" : "Url of MQTT broker",
 							"type" : "string",
