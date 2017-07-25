@@ -566,6 +566,17 @@
 									"default" : true
 								}
 							}
+						},
+						"plug" : {
+							"title" : "plug widget",
+							"type" : "object",
+							"properties" : {
+								"ignore" : {
+									"title" : "Ignore async update",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
 						}
 					}
 				}
