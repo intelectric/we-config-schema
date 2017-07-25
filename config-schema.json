@@ -351,6 +351,11 @@
 							"type" : "boolean",
 							"default" : false
 						},
+						"logging" : {
+							"title" : "Enable MQTT logging",
+							"type" : "boolean",
+							"default" : false
+						},
 						"url" : {
 							"title" : "Url of MQTT broker",
 							"type" : "string",
@@ -363,6 +368,10 @@
 						},
 						"token" : {
 							"title" : "Security token for connecting to MQTT broker",
+							"type" : "string"
+						},
+						"cert_file_path" : {
+							"title" : "File path to the PEM file for the MQTT broker",
 							"type" : "string"
 						}
 					}
