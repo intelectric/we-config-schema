@@ -351,6 +351,11 @@
 							"type" : "boolean",
 							"default" : false
 						},
+						"reconnect_delay" : {
+							"title" : "Delay (in seconds) between reconnect attempts",
+							"type" : "number",
+							"default" : 5
+						},
 						"logging" : {
 							"title" : "Enable MQTT logging",
 							"type" : "boolean",
