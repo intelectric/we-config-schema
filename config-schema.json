@@ -393,7 +393,7 @@
 						"url" : {
 							"title" : "Url to send request to",
 							"type" : "string",
-							"default" : "http://81.2.243.157:6250/"
+							"default" : "http://jupiter.makers.sk:6250/"
 						}
 					}
 				},				
