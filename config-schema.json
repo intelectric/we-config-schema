@@ -433,7 +433,7 @@
 									"default" : false
 								},
 								"partial" : {
-									"title" : "Do update partialy",
+									"title" : "Do update partially",
 									"type" : "boolean",
 									"default" : true
 								}
@@ -449,7 +449,7 @@
 									"default" : true
 								},
 								"partial" : {
-									"title" : "Do update partialy",
+									"title" : "Do update partially",
 									"type" : "boolean",
 									"default" : true
 								}
@@ -465,7 +465,7 @@
 									"default" : true
 								},
 								"partial" : {
-									"title" : "Do update partialy",
+									"title" : "Do update partially",
 									"type" : "boolean",
 									"default" : true
 								}
