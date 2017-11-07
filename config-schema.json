@@ -593,6 +593,30 @@
 							}
 						}
 					}
+				},
+				"optimize" : {
+					"title" : "Configuration for optimization module",
+					"type" : "object",
+					"properties" : {
+						"response" : {
+							"title" : "Response interface for optimization module",
+							"type" : "object",
+							"properties" : {
+								"uri" : {
+									"title" : "URI of interface",
+									"type" : "string",
+									"default" : "http://10.172.31.100/apps/data/wien-energie-support/optim.lp"
+								},
+								"name" : {
+									"title" : "name for basic auth token",
+									"type" : "string"
+								},
+								"password" : {
+									"title" : "password for basic auth token",
+									"type" : "password"
+								}
+							}
+						}
 				}
 			}
 		},
