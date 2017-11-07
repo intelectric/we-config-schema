@@ -613,7 +613,7 @@
 								},
 								"password" : {
 									"title" : "password for basic auth token",
-									"type" : "password"
+									"type" : "string"
 								}
 							}
 						}
