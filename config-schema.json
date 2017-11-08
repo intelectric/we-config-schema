@@ -152,6 +152,11 @@
 									"default": 30,
 									"minimum": 5,
 									"maximum": 90
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : false
 								}
 							}
 						},
@@ -165,6 +170,11 @@
 									"default": 10,
 									"minimum": 1,
 									"maximum": 60
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : false
 								}
 							}
 						},
@@ -178,6 +188,11 @@
 									"default": 60,
 									"minimum": 20,
 									"maximum": 90
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : false
 								}
 							}
 						},	
@@ -191,6 +206,11 @@
 									"default": 180,
 									"minimum": 120,
 									"maximum": 300
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : false
 								}
 							}
 						},	
@@ -204,6 +224,11 @@
 									"default": 5,
 									"minimum": 1,
 									"maximum": 30
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : false
 								}
 							}
 						},	
@@ -217,6 +242,11 @@
 									"default": 5,
 									"minimum": 1,
 									"maximum": 60
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : true
 								}
 							}
 						},	
@@ -230,6 +260,11 @@
 									"default": 300,
 									"minimum": 30,
 									"maximum": 3600
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : false
 								}
 							}
 						},	
@@ -243,6 +278,11 @@
 									"default": 10,
 									"minimum": 5,
 									"maximum": 300
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : false
 								}
 							}
 						}							
