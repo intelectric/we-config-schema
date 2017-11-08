@@ -88,6 +88,42 @@
 								}
 							}
 						},
+						"kebaul" : {
+							"title" : "Resident script to unlock udp lock",
+							"type" : "object",
+							"properties" : {
+								"interval" : {
+									"title" : "Sleep interval",
+									"type" : "integer",
+									"default": 5,
+									"minimum": 0,
+									"maximum": 20
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
+						"kebach" : {
+							"title" : "Resident script to check lock udp lock",
+							"type" : "object",
+							"properties" : {
+								"interval" : {
+									"title" : "Sleep interval",
+									"type" : "integer",
+									"default": 5,
+									"minimum": 0,
+									"maximum": 20
+								},
+								"ignore" : {
+									"title" : "Ignore resident script",
+									"type" : "boolean",
+									"default" : true
+								}
+							}
+						},
 						"studerp1" : {
 							"title" : "Resident script of Studer priority 1",
 							"type" : "object",
