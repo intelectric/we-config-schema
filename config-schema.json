@@ -232,6 +232,19 @@
 									"maximum": 3600
 								}
 							}
+						},	
+						"optimcheck" : {
+							"title" : "Script for checking responses from optimization module",
+							"type" : "object",
+							"properties" : {
+								"interval" : {
+									"title" : "Sleep interval",
+									"type" : "integer",
+									"default": 10,
+									"minimum": 5,
+									"maximum": 300
+								}
+							}
 						}							
 					}
 				},
