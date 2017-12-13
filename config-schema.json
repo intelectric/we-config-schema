@@ -745,7 +745,8 @@
 					"title" : "Widget id of application",
 					"type"   : "string",
 					"enum" : [
-					   "#wien-energie-support"
+					   "#wien-energie-support",
+					   "#oms"
 					],
 					"default" : "#wien-energie-support"
 				},
@@ -758,7 +759,8 @@
 					"title" : "URL of application",
 					"type"   : "string",
 					"enum" : [
-					   "/apps/data/wien-energie-support/app.lp"
+					   "/apps/data/wien-energie-support/app.lp",
+					   "/apps/data/oms/app.lp"
 					],				
 					"default" : "/apps/data/wien-energie-support/app.lp"
 				}			
