@@ -36,7 +36,8 @@
 							"enum" : [
 										"reactorv3",
 										"reactorrd",
-										"reactorwe"
+										"reactorwe",
+										"lm5ex_rio"
 									],
 							"default": "reactorrd"
 						}
