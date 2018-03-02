@@ -491,7 +491,28 @@
 							"default" : "http://jupiter.makers.sk:6250/"
 						}
 					}
-				},				
+				},
+				"hel" : {
+					"title" : "Configuration for Helvar",
+					"type" : "object",
+					"properties" : {
+						"timeout" : {
+							"title" : "Timeout Helvar request",
+							"type" : "number",
+							"default" : 0.2
+						},
+						"port" : {
+							"title" : "Helvar router port",
+							"type" : "number",
+							"default" : 50000
+						},
+						"ip" : {
+							"title" : "Helvar router IP",
+							"type" : "string",
+							"default" : "10.254.1.1"
+						}
+					}
+				},
 				"asyncdata" : {
 					"title" : "Configuration for getting data asynchronously",
 					"type" : "object",
