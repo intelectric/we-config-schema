@@ -470,7 +470,7 @@
 							"type" : "string"
 						},
 						"aggr_timeout" : {
-							"title" : "Timeout for data aggregation (more calls less data)",
+							"title" : "Timeout for data aggregation (more calls less data or vice versa)",
 							"type" : "number",
 							"default" : 5
 						}
