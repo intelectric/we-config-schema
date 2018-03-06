@@ -468,6 +468,11 @@
 						"cert_file_path" : {
 							"title" : "File path to the PEM file for the MQTT broker",
 							"type" : "string"
+						},
+						"aggr_timeout" : {
+							"title" : "Timeout for data aggregation (more calls less data)",
+							"type" : "number",
+							"default" : 5
 						}
 					}
 				},			
