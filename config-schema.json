@@ -46,8 +46,8 @@
 							"title" : "id formatting io-01/io-1 ",
 							"type" : "string",
 							"enum" : [
-								"%02d",
-								"%01d"
+								"2d",
+								"1d"
 							],
 							"default": "%02d"
 						}
