@@ -41,6 +41,15 @@
 								        "reactorgm"
 									],
 							"default": "reactorrd"
+						},
+						"format" : {
+							"title" : "id formatting io-01/io-1 ",
+							"type" : "string",
+							"enum" : [
+								"%02d",
+								"%01d"
+							],
+							"default": "%02d"
 						}
 					}
 				},
