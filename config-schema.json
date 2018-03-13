@@ -37,7 +37,8 @@
 										"reactorv3",
 										"reactorrd",
 										"reactorwe",
-										"lm5ex_rio"
+										"lm5ex_rio",
+								        "reactorgm"
 									],
 							"default": "reactorrd"
 						}
