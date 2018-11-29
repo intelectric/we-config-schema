@@ -533,6 +533,33 @@
 						}
 					}
 				},
+				"mbus" : {
+					"title" : "Configuration for mbus",
+					"type" : "object",
+					"properties" : {
+						"dev": {
+							"title" : "device terminal",
+							"type" : "object",
+							"properties" : {
+								"RS232": {
+									"title": "RS232 terminal",
+									"type": "string",
+									"default": "/dev/RS232"
+								},
+								"USB0": {
+									"title": "USB0 terminal",
+									"type": "string",
+									"default": "/dev/ttyUSB0"
+								},
+								"USB1": {
+									"title": "USB1 terminal",
+									"type": "string",
+									"default": "/dev/ttyUSB1"
+								}
+							}
+						}
+					}
+				},
 				"asyncdata" : {
 					"title" : "Configuration for getting data asynchronously",
 					"type" : "object",
