@@ -488,6 +488,11 @@
 							"title" : "Timeout for data aggregation (more calls less data or vice versa)",
 							"type" : "number",
 							"default" : 5
+						},
+						"buffer_save_flag" : {
+							"title" : "Save MQTT in buffer",
+							"type" : "boolean",
+							"default" : false
 						}
 					}
 				},			
