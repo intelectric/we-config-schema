@@ -779,6 +779,17 @@
 									"type" : "string"
 								}
 							}
+						},
+						"request" : {
+							"title" : "Request interface for optimization module",
+							"type" : "object",
+							"properties" : {
+								"uri" : {
+									"title" : "URI of interface",
+									"type" : "string",
+									"default" : "http://62.218.45.12:10883/opt/start"
+								}
+							}
 						}
 					}
 				}
