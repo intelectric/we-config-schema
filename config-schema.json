@@ -788,7 +788,16 @@
 									"title" : "URI of interface",
 									"type" : "string",
 									"default" : "http://62.218.45.12:10883/opt/start"
-								}
+								},
+                                "setup" : {
+                                    "title" : "Type of setup. default - predict all, pv_only - predict only PV",
+                                    "type" : "string",
+                                    "enum" : [
+                                      "default",
+                                      "pv_only"
+                                    ],
+                                    "default" : "default"
+                                }
 							}
 						}
 					}
