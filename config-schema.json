@@ -801,7 +801,40 @@
 							}
 						}
 					}
-				}
+				},
+                "dems" : {
+                  "title": "Configuration for DEMS connection",
+                  "type": "object",
+                  "properties": {
+                    "fitIn": {
+                      "title": "FitIn properties",
+                      "type": "object",
+                      "properties": {
+                        "n_inv_min": {
+                          "title": "Number of inverters inverters with min power",
+                          "type": "number",
+                          "default": "3"
+                        },
+                        "n_inv_max": {
+                          "title": "Number of inverters with max power",
+                          "type": "number",
+                          "default": "1"
+                        }
+                      }
+                    },
+                    "run": {
+                      "title": "run properties",
+                      "type": "object",
+                      "properties": {
+                        "limit_power_enabled": {
+                          "title": "Real power plant limitation - false = just debug",
+                          "type" : "boolean",
+                          "default" : false
+                        }
+                      }
+                    }
+                  }
+                }
 			}
 		},
 		"enduser_app" : {
