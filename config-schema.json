@@ -799,7 +799,12 @@
                                     "default" : "default"
                                 }
 							}
-						}
+						},
+                        "apply_optim": {
+                          "title": "Do applicataion of optim do devices",
+                          "type" : "boolean",
+                          "default" : false
+                        }
 					}
 				},
                 "dems" : {
