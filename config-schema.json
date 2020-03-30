@@ -824,6 +824,11 @@
                           "title": "Number of inverters with max power",
                           "type": "number",
                           "default": "1"
+                        },
+                        "include_hour": {
+                          "title": "Include hour calculation",
+                          "type": "boolean",
+                          "default": false
                         }
                       }
                     },
