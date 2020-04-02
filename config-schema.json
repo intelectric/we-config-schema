@@ -777,7 +777,12 @@
 								"password" : {
 									"title" : "password for basic auth token",
 									"type" : "string"
-								}
+								},
+                                "weather_stat_alt" : {
+                                  "title" : "Enable reading Weather data history from Weatherbit",
+                                  "type" : "boolean",
+                                  "default" : false
+                                }
 							}
 						},
 						"request" : {
