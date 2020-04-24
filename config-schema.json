@@ -299,7 +299,12 @@
 									"title" : "Ignore resident script",
 									"type" : "boolean",
 									"default" : true
-								}
+								},
+                                "write2dev": {
+                                    "title" : "Send the value to device or not",
+                                    "type" : "boolean",
+                                    "default" : false
+                                }
 							}
 						},	
 						"logret" : {
