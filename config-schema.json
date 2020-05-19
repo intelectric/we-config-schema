@@ -811,7 +811,7 @@
 							}
 						},
                         "apply_optim": {
-                          "title": "Do application of optim do devices",
+                          "title": "Do application of optim into devices",
                           "type" : "boolean",
                           "default" : false
                         }
