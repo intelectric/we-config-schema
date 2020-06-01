@@ -814,6 +814,11 @@
                           "title": "Do application of optim into devices",
                           "type" : "boolean",
                           "default" : false
+                        },
+                        "enable_interpolation": {
+                          "title": "Use interpolation to the missing data",
+                          "type" : "boolean",
+                          "default" : false
                         }
 					}
 				},
