@@ -283,7 +283,25 @@
 									"default" : false
 								}
 							}
-						},	
+						},
+                        "computePower" : {
+                          "title" : "Computing household power",
+                          "type" : "object",
+                          "properties" : {
+                            "interval" : {
+                              "title" : "Sleep interval",
+                              "type" : "integer",
+                              "default": 5,
+                              "minimum": 1,
+                              "maximum": 30
+                            },
+                            "ignore" : {
+                              "title" : "Ignore resident script",
+                              "type" : "boolean",
+                              "default" : false
+                            }
+                        }
+                      },
 						"control" : {
 							"title" : "CF - control functions",
 							"type" : "object",
