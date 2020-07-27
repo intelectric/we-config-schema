@@ -285,7 +285,7 @@
 							}
 						},
                         "computePower" : {
-                          "title" : "Computing household power",
+                          "title" : "Computing household power - not used",
                           "type" : "object",
                           "properties" : {
                             "interval" : {
