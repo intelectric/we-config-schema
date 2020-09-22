@@ -507,6 +507,11 @@
 							"title" : "File path to the PEM file for the MQTT broker",
 							"type" : "string"
 						},
+                        "skip_server_check" : {
+                          "title" : "Skip checking server certificate",
+                          "type" : "boolean",
+                          "default" : true
+                        },
 						"aggr_timeout" : {
 							"title" : "Timeout for data aggregation (more calls less data or vice versa)",
 							"type" : "number",
